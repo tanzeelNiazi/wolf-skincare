@@ -1,12 +1,12 @@
 Hi 👋, I'm Tanzeel Akhtar, a passionate frontend developer from Pakistan.
 
-This is a **README** file of [The Wolf Skincare](https://tanzeel.website) Website Mockup. It can help you extract important information about the project without digging through all the code. If you have any question please contact me at tanzeel.website@gmail.com
+This is a **README** file of [The Wolf Skincare](https://tanzeelniazi.github.io/wolf-skincare/) Repository. It can help you extract important information about the project without digging through all the code. If you have any question please contact me at tanzeel.website@gmail.com
 
 # Project Name: The Wolf Skincare
 
 - Desktop only.
 
-### Website Demo: [https://tanzeel.website](https://tanzeel.website)
+### Website Demo: [https://tanzeelniazi.github.io/wolf-skincare/](https://tanzeelniazi.github.io/wolf-skincare/)
 
 # Additional Information
 

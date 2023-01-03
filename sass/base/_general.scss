@@ -1,0 +1,13 @@
+.container {
+  width: 100%;
+}
+
+.inner-container {
+  width: 120rem;
+  padding: $unit__small;
+}
+
+a {
+  text-decoration: none;
+  color: $color__dark;
+}

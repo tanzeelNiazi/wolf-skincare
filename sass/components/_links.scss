@@ -1,0 +1,13 @@
+.nav-link {
+  font-weight: 700;
+  &:link,
+  &:visited {
+    color: $color__secondary;
+    transition: all 0.3s;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__light;
+  }
+}

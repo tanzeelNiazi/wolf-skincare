@@ -19,4 +19,59 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+.container {
+  width: 100%;
+}
+
+.inner-container {
+  width: 120rem;
+  padding: 0.8rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header {
+  background: #566f6b;
+}
+
+.header-container {
+  padding: 3.2rem 0;
+  margin: auto;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-navigation {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2.4rem;
+}
+
+.logo-wrapper {
+  width: 20rem;
+}
+
+.logo {
+  width: 100%;
+}
+
+.nav-link {
+  font-weight: 700;
+}
+.nav-link:link, .nav-link:visited {
+  color: #8bbeb7;
+  transition: all 0.3s;
+}
+.nav-link:hover, .nav-link:active {
+  color: #fff;
+}
+
 /*# sourceMappingURL=main.css.map */
