@@ -25,6 +25,7 @@ body {
 
 .inner-container {
   width: 120rem;
+  margin: auto;
   padding: 0.8rem;
 }
 
@@ -72,6 +73,78 @@ a {
 }
 .nav-link:hover, .nav-link:active {
   color: #fff;
+}
+
+.hero-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 1.6rem;
+}
+
+.hero-link {
+  padding: 1.6rem 3.2rem;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.hero-link:link, .hero-link:visited {
+  color: #fff;
+  background: transparent;
+  transition: all 0.5s;
+}
+.hero-link:hover, .hero-link:active {
+  color: #566f6b;
+  background: #fff;
+}
+
+.hero-cta-link:link, .hero-cta-link:visited {
+  color: #566f6b;
+  background: #fff;
+  transition: all 0.5s;
+}
+.hero-cta-link:hover, .hero-cta-link:active {
+  color: #fff;
+  background: #8bbeb7;
+  border: 2px solid #8bbeb7;
+}
+
+.hero {
+  background: #566f6b;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40rem;
+}
+
+.hero-desc__title {
+  font-size: 3.2rem;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.2rem;
+}
+.hero-desc__text {
+  width: 75%;
+  color: #8bbeb7;
+  margin-top: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.hero-product {
+  position: relative;
+  width: 50rem;
+}
+
+.hero-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-200px);
 }
 
 /*# sourceMappingURL=main.css.map */

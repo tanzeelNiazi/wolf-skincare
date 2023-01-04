@@ -1,0 +1,38 @@
+.hero {
+  background: $color__primary;
+}
+
+.hero-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40rem;
+}
+
+.hero-desc {
+  &__title {
+    font-size: $unit__medium;
+    color: #fff;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+  }
+  &__text {
+    width: 75%;
+    color: $color__secondary;
+    margin-top: $unit__submedium;
+    margin-bottom: $unit__submedium;
+  }
+}
+
+.hero-product {
+  position: relative;
+  width: 50rem;
+}
+
+.hero-image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(-200px);
+}

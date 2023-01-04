@@ -11,3 +11,46 @@
     color: $color__light;
   }
 }
+.hero-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: $unit__normal;
+}
+
+.hero-link {
+  padding: $unit__normal $unit__medium;
+  border-radius: 25px;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  &:link,
+  &:visited {
+    color: $color__light;
+    background: transparent;
+    transition: all 0.5s;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__primary;
+    background: $color__light;
+  }
+}
+
+.hero-cta-link {
+  &:link,
+  &:visited {
+    color: $color__primary;
+    background: $color__light;
+    transition: all 0.5s;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__light;
+    background: $color__secondary;
+    border: 2px solid $color__secondary;
+  }
+}
