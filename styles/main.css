@@ -243,4 +243,77 @@ a {
   gap: 1.6rem;
 }
 
+.main-product-container {
+  margin: 3.2rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 4.8rem;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.2rem;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section__title {
+  font-size: 4.8rem;
+  color: #b4bdba;
+  text-transform: uppercase;
+}
+
+.testimonial-content {
+  margin: 6.4rem auto;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.author-job {
+  color: #b4bdba;
+  text-shadow: 0 2px 2px #eee;
+}
+
+.testimonials {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 4.8rem;
+}
+
+.testimonial {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.8rem;
+}
+
+.author-image-wrapper {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.author-image {
+  width: 100%;
+  height: auto;
+}
+
 /*# sourceMappingURL=main.css.map */

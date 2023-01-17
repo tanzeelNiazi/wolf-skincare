@@ -43,3 +43,5 @@ Visit [www.tanzeel.website](http://www.tanzeel.website) or contact me on tanzeel
 Following Images/Designs/Icons are used for creation of this website:
 
 - [Website Design Inspiration](https://www.behance.net/gallery/78317727/Man-Skincare-web-design/modules/454567103)
+- [Man with Turtleneck Shirt](https://www.pexels.com/photo/man-standing-near-building-white-black-turtleneck-shirt-874158/)
+- [Woman Smiling](https://www.pexels.com/photo/woman-smiling-at-the-camera-1181686/)

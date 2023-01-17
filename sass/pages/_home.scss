@@ -84,3 +84,25 @@
   flex-direction: column;
   gap: $unit__normal;
 }
+
+.main-product-container {
+  margin: $unit__medium auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: $unit__large;
+}
+
+.products {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: $unit__medium;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
