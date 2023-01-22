@@ -1,0 +1,23 @@
+.footer-content {
+  background: #e7e7e7;
+}
+
+.footer-container {
+  position: relative;
+  padding: $unit__medium 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-links {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: $unit__small;
+}
+
+.links-title {
+  margin: $unit__small auto;
+}

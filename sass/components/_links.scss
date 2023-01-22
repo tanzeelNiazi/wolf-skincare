@@ -60,3 +60,16 @@
     border: 2px solid $color__light;
   }
 }
+
+.footer-link {
+  &:link,
+  &:visited {
+    color: lighten($color__dark, 50%);
+    transition: all 0.3s;
+  }
+
+  &:hover,
+  &:active {
+    color: $color__dark;
+  }
+}
